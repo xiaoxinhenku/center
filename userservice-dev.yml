@@ -1,18 +1,18 @@
 eureka:
-  instance:
-    prefer-ip-address: true
-    hostname: localhost
   client:
-    registerWithEureka: true
     fetch-registry: false
+    registerWithEureka: true
     serviceUrl:
       defaultZone: http://192.168.230.133:8761/eureka/
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+server:
+  port: 8882
 spring:
   application:
     name: userservice
   datasource:
-    url: jdbc:mysql://localhost/unit02
     password: ps123456
+    url: jdbc:mysql://localhost/unit02
     username: root
-server:
-  port: 8882
