@@ -1,6 +1,6 @@
 eureka:
   client:
-    fetch-registry: false
+    fetch-registry: true
     registerWithEureka: true
     serviceUrl:
       defaultZone: http://192.168.230.133:8761/eureka/
