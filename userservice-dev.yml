@@ -16,3 +16,4 @@ spring:
     password: ps123456
     url: jdbc:mysql://localhost/unit02
     username: root
+  driver-class-name: com.mysql.jdbc.Driver
